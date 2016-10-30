@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=News+Cycle|Shadows+Into+Light');
         nav {
             background-color: #F0E4CA;
         }
@@ -13,8 +14,12 @@
             color: #2A385D;
         }
         
-        #for-the-rush {
+        #middle-row {
             background-color: #B8A274;
+        }
+        
+        section {
+            padding: 15px;
         }
         
         h1,
@@ -24,6 +29,12 @@
         h5,
         h6 {
             color: #2E4072;
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 1.8em;
+        }
+        
+        h2 {
+            margin-bottom: 0.1px;
         }
         
         .paragraph-color {
@@ -31,14 +42,28 @@
         }
         
         #content {
-           width: 960px;
+            width: 90%;
+            max-width: 960px;
             margin: 0 auto;
         }
         
-        #invitation {
-            text-align: center;
+        p {
+            font-family: 'News Cycle', sans-serif;
+            margin-top: 0.1px;
         }
         
+        .leftcol {
+            width: 48%;
+        }
+        
+        .rightcol {
+            width: 48%;
+        }
+        
+        #bottom-row {
+            text-align: center;
+            width: 96%;
+        }
     </style>
 </head>
 
@@ -63,7 +88,7 @@
             <img src="http://brothert.net/dryoar/images/river-wide3.jpg" alt="people whitewater rafting in river">
         </section>
 
-        <section>
+        <section id="top-row">
             <div class="leftcol">
                 <h2>We run Rivers to relax.</h2>
 
@@ -75,7 +100,7 @@
             </div>
         </section>
 
-        <section id="for-the-rush">
+        <section id="middle-row">
             <div class="leftcol">
                 <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="whitewater rafting in rapids">
             </div>
@@ -87,7 +112,7 @@
             </div>
         </section>
 
-        <section id="invitation">
+        <section id="bottom-row">
             <h2>Come Run with us.</h2>
 
             <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
@@ -95,9 +120,9 @@
 
         <footer>
             <p>&copy; 2016 Dry Oar || Oriana Wai</p>
-            <img src="facebook.png" alt="facebook" href="https://www.facebook.com/" target="_blank" height="30">
-            <img src="instagram.png" alt="instagram" href="https://www.instagram.com/" target="_blank" height="30">
-            <img src="youtube.png" alt="youtube" href="https://www.youtube.com/" target="_blank" height="30">
+            <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" alt="facebook" height="30"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img src="instagram.png" alt="instagram" height="30"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img src="youtube.png" alt="youtube" height="30"></a>
         </footer>
     </div>
 </body>
