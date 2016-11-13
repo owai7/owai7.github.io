@@ -1,4 +1,11 @@
 /* CSS - Name: "positionstyles.css" */
+
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
 /* Activity 1 styles */
     .red1 { 
     width: 100px; 
