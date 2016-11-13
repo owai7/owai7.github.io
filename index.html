@@ -10,12 +10,27 @@
             background-color: #F0E4CA;
         }
         
+        img {
+            max-width: 100%;
+        }
+        
+        .fullwidth {
+            width: 100%;
+        }
+        
         a {
             color: #2A385D;
         }
         
         #middle-row {
             background-color: #B8A274;
+        }
+        
+        #top-row, #middle-row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
         }
         
         section {
@@ -52,24 +67,39 @@
             margin-top: 0.1px;
         }
         
-        .leftcol {
+        .leftcol, .rightcol {
             width: 48%;
-        }
-        
-        .rightcol {
-            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
         }
         
         #bottom-row {
             text-align: center;
             width: 96%;
+            margin: 1em;
         }
+        
+        footer {
+            height: 55px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        
+        #copyright {
+            flex: 10 0 15em;
+        }
+        
+        #facebook, #instagram, #youtube {
+            margin: 0px 5px;
+        }
+        
     </style>
 </head>
 
 <body>
     <div id="content">
-        <section>
+        <section id = "banner">
             <header>
                 <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
 
@@ -85,7 +115,7 @@
                 </nav>
             </header>
 
-            <img src="http://brothert.net/dryoar/images/river-wide3.jpg" alt="people whitewater rafting in river">
+            <img id = "banner-img" class = "fullwidth" src="http://brothert.net/dryoar/images/river-wide3.jpg" alt="people whitewater rafting in river">
         </section>
 
         <section id="top-row">
@@ -119,10 +149,10 @@
         </section>
 
         <footer>
-            <p>&copy; 2016 Dry Oar || Oriana Wai</p>
-            <a href="https://www.facebook.com/" target="_blank"> <img src="facebook.png" alt="facebook" height="30"></a>
-            <a href="https://www.instagram.com/" target="_blank"> <img src="instagram.png" alt="instagram" height="30"></a>
-            <a href="https://www.youtube.com/" target="_blank"> <img src="youtube.png" alt="youtube" height="30"></a>
+            <p id = "copyright">&copy; 2016 Dry Oar || Oriana Wai</p>
+            <a href="https://www.facebook.com/" target="_blank"> <img id = "facebook" src="facebook.png" alt="facebook" height="30"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img id = "instagram" src="instagram.png" alt="instagram" height="30"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img id = "youtube" src="youtube.png" alt="youtube" height="30"></a>
         </footer>
     </div>
 </body>
