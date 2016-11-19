@@ -1,0 +1,110 @@
+        @import url('https://fonts.googleapis.com/css?family=News+Cycle|Shadows+Into+Light');
+        nav {
+            background-color: #F0E4CA;
+            line-height: 3em;
+        }
+        
+        logo {
+            background-color: white;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .fullwidth {
+            width: 100%;
+        }
+        
+        a {
+            color: #2A385D;
+        }
+        
+        #middle-row {
+            background-color: #B8A274;
+        }
+        
+        #top-row,
+        #middle-row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        section {
+            padding: 15px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #2E4072;
+            font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
+            font-size: 1.8em;
+        }
+        
+        h2 {
+            margin-bottom: 0.1px;
+        }
+        
+        .paragraph-color {
+            color: #283A5D;
+        }
+        
+        #content {
+            width: 90%;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        
+        p {
+            font-family: "News Cycle", "Lucida Sans Unicode", sans-serif;
+            margin-top: 0.1px;
+        }
+        
+        .leftcol,
+        .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        #bottom-row {
+            text-align: center;
+            width: 96%;
+            margin: 1em;
+        }
+        
+        footer {
+            height: 55px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        
+        #copyright {
+            flex: 10 0 15em;
+        }
+        
+        #facebook,
+        #instagram,
+        #youtube {
+            margin: 0px 5px;
+        }
+        
+        nav > ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            flex-flow: row wrap;
+            font-family: "News Cycle", "Lucida Sans Unicode", sans-serif;
+        }
+        
+        nav li {
+            flex: 1 0 6em;
+        }
