@@ -2,9 +2,31 @@
         nav {
             background-color: #F0E4CA;
             line-height: 3em;
-            font-size: 1.2em;
+            font-size: 1.1em;
             margin-top: -75px;
             padding-left: 100px;
+        }
+        
+        .page-nav {
+            background-color: #F0E4CA;
+            line-height: 2em;
+            font-size: .95em;
+            margin: 0px;
+            margin-bottom: -25px;
+            max-width: 100%;
+            line-height: 3em;
+        }
+        
+        h1 {
+            color: #2E4072;
+            font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
+            font-size: 4em;
+            font-weight: 1000;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-flow: row wrap;
+            margin: 0px;
         }
         
         nav > ul {
@@ -39,10 +61,6 @@
             width: 100%;
         }
         
-        a {
-            color: #2A385D;
-        }
-        
         #middle-row {
             background-color: #B8A274;
         }
@@ -55,11 +73,30 @@
             align-items: center;
         }
         
+        #bottom-row {
+            text-align: center;
+            width: 96%;
+            margin: 1em;
+        }
+        
+        #middle-row2 {
+            text-align: center;
+            width: 96%;
+            margin: 1em;
+            background-color: #B8A274;
+        }
+        
+        #bottom-row2 {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
         section {
             padding: 15px;
         }
         
-        h1,
         h2,
         h3,
         h4,
@@ -68,6 +105,8 @@
             color: #2E4072;
             font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
             font-size: 1.8em;
+            display: flex;
+            justify-content: center;
         }
         
         h2 {
@@ -96,12 +135,6 @@
             margin: .5em;
         }
         
-        #bottom-row {
-            text-align: center;
-            width: 96%;
-            margin: 1em;
-        }
-        
         footer {
             height: 55px;
             display: flex;
@@ -121,13 +154,14 @@
         
         nav a {
             padding: .7em 1em;
+            color: #2A385D;
         }
         
         a:normal {
             color: black;
         }
         
-        a:hover {
+        nav a:hover {
             color: #8B91A2;
             background-color: burlywood;
         }
