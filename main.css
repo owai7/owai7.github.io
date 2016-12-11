@@ -55,6 +55,7 @@
         
         img {
             max-width: 100%;
+            justify-content: center;
         }
         
         .fullwidth {
@@ -98,7 +99,6 @@
         }
         
         h2,
-        h3,
         h4,
         h5,
         h6 {
@@ -107,6 +107,13 @@
             font-size: 1.8em;
             display: flex;
             justify-content: center;
+        }
+        
+        h3 {
+            color: #2E4072;
+            font-family: "Shadows Into Light", "Comic Sans MS", sans-serif;
+            font-size: 1.8em;
+            margin: 0px;
         }
         
         h2 {
@@ -169,4 +176,11 @@
         a:visited {
             color: #215054;
             text-decoration: none;
+        }
+        
+        .rates_dates {
+            list-style-type: none;
+            font-family: "News Cycle", "Lucida Sans Unicode", sans-serif;
+            margin: 0px;
+            color: #283A5D;
         }
